@@ -1,0 +1,298 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header */
+  header {
+    background-color: black;
+  }
+  .navbar {
+    height: 92px;
+    color: white;
+    display: flex;
+    align-items: end;
+    flex-wrap: wrap;
+  }
+  
+  /* Logo */
+  .logo {
+    background-image: url(LOGO.jpg);
+    height: 92px;
+    width: 295px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  /*  Hover Border */
+  .full-border {
+    border: 0.10px solid transparent;
+  }
+  .full-border:hover {
+    border: 0.10px solid white;
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  /* navbar */
+  .nav-address {
+    margin-bottom: 5px;
+    margin-left: 20px;
+    border-radius: 3px;
+  }
+  .address-one {
+    font-size: 15px;
+    color: #cccccc;
+  }
+  .address-two {
+    margin-left: 5px;
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Search Bar */
+  .search-bar-flex {
+    display: flex;
+    align-items: end;
+    margin-bottom: 6px;
+    margin-left: 35px;
+    border-radius: 10px;
+  }
+  .search-border {
+    border: none;
+    height: 25px;
+    width: 190px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .search-icon {
+    height: 25px;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  /* Utility Bars */
+  .sign-in,
+  .return-bar,
+  .product-bar,
+  .cart-icon {
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 6px;
+  }
+  .return-bar,
+  .product-bar,
+  .cart-icon {
+    border-left: 1px solid gray;
+    padding-left: 10px;
+  }
+  
+  /* About */
+  .about {
+    display: flex;
+    margin-left: auto;
+    margin-bottom: 6px;
+  }
+  
+  /* Cart Icon */
+  .cart-icon {
+    font-size: 18px;
+  }
+  
+  /* Hero Section */
+  .all-main {
+    display: flex;
+    align-items: center;  
+    justify-content: center;
+    background: linear-gradient(90deg, #cad0ff 0%, #e3e3e3 100%);
+  }
+  .all-back {
+    display: flex;
+    height: 294px;
+    width: 1000px;
+    overflow: hidden;
+  }
+  .cont {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    animation: sai 50s ease-in-out infinite;
+  }
+  
+  /* Animation */
+  @keyframes sai {
+    0%, 30% { margin-left: 0px; }
+    35%, 55% { margin-left: -1000px; }
+    60%, 80% { margin-left: -2000px; }
+    85%, 99% { margin-left: -3000px; }
+  }
+  
+  /* Slider Buttons */
+  .slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-prev,
+  .icon-next {
+    border: none;
+    font-size: 80px;
+    background-color: transparent;
+  }
+  
+  /* Sports Shoes */
+  .sports-main {
+    text-align: center;
+    padding-bottom: 35px;
+    background: linear-gradient(225deg, #5fa4a2 0%, #e2e2e2 100%);
+  }
+  .sports-shoes1,
+  .sports-shoes2,
+  .casual-shoes1,
+  .casual-shoes2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding-top: 30px;
+  }
+  .boxes {
+    background-color: white;
+    border: none;
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+  }
+  .text {
+    text-align: center;
+    line-height: 50px;
+  }
+  .color1, .color2, .color3, .color4,
+  .color5, .color6, .color7, .color8,
+  .cc1, .cc2, .cc3, .cc4,
+  .cc5, .cc6, .cc7, .cc8 {
+    height: 300px;
+    width: 100%;
+    max-width: 280px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+  }
+  
+  /* Background Images */
+  .color1 { background-image: url(sports/1shoe.jpg); }
+  .color2 { background-image: url(sports/2shoe.jpg); }
+  .color3 { background-image: url(sports/3shoe.jpg); }
+  .color4 { background-image: url(sports/4shoe.jpg); }
+  .color5 { background-image: url(sports/5shoe.jpg); }
+  .color6 { background-image: url(sports/6shoe.jpg); }
+  .color7 { background-image: url(sports/7shoe.jpg); }
+  .color8 { background-image: url(sports/8shoe.jpg); }
+  .cc1 { background-image: url(casuals/1casual.jpg); }
+  .cc2 { background-image: url(casuals/2casual.jpg); }
+  .cc3 { background-image: url(casuals/3casual.jpg); }
+  .cc4 { background-image: url(casuals/4casual.jpg); }
+  .cc5 { background-image: url(casuals/5casual.jpg); }
+  .cc6 { background-image: url(casuals/6casual.jpg); }
+  .cc7 { background-image: url(casuals/7casual.jpg); }
+  .cc8 { background-image: url(casuals/8casual.jpg); }
+  
+  /* Casual Shoes */
+  .casual-main {
+    text-align: center;
+    padding-bottom: 40px;
+    background: linear-gradient(90deg, #f8f9c7 0%, #f2c1ea 100%);
+  }
+  
+  /* Footer */
+  .back-top {
+    height: 60px;
+    background-color: #283442;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+  }
+  .footer {
+    background-color: black;
+    color: #dddddd;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 250px;
+    flex-wrap: wrap;
+  }
+  .footer a {
+    display: block;
+  }
+  .contact-us {
+    border-left: 2px solid grey;
+    padding-left: 10px;
+  }
+  .copy {
+    height: 40px;
+    background-color: black;
+    color: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .about {
+      margin-left: 0;
+      justify-content: center;
+    }
+  
+    .search-bar-flex,
+    .sign-in,
+    .return-bar,
+    .product-bar,
+    .cart-icon {
+      margin-left: 0;
+      margin-bottom: 10px;
+    }
+  
+    .sports-shoes1,
+    .sports-shoes2,
+    .casual-shoes1,
+    .casual-shoes2 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .boxes {
+      width: 90%;
+    }
+  
+    .all-back {
+      width: 100%;
+    }
+  
+    .icon-prev,
+    .icon-next {
+      font-size: 50px;
+    }
+  
+    .footer {
+      flex-direction: column;
+      height: auto;
+      gap: 1rem;
+    }
+  }
+  

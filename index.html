@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAIshoes.in</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="navbar" >
+        <!-- logo -->
+        <div class="nav.logo ">
+               <div class=" logo ">
+               </div>
+        </div>
+                <!-- About -->
+                <div class="about">
+                    <p><span class="full-border">About</span></p>
+                </div>
+                 <!-- product-bar -->
+                <div class="product-bar">
+                    <p><span class="full-border">Products</span></p>
+                </div>
+                               <!-- return-bar -->
+                            <div class="return-bar">
+                                   <p><span class="full-border">Returns</span></p>
+                            </div>  
+                     <!-- cart-icon -->
+                      <div class="cart-icon " >
+                        <i class="fa-solid fa-cart-shopping full-border"></i>
+                      </div>
+
+
+             <!-- search bar -->
+            <div class="search-bar-flex full-border">
+                        <input type="search" placeholder="Products" class="search-border">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>   
+              <!-- deliver bar -->
+        <div class=" nav-address full-border">
+                         <p class="address-one">delivery</p>
+            <div class="icon">
+                       <i class="fa-solid fa-location-dot"></i>
+                       <p class="address-two">INDIA</p>
+            </div>
+        </div>
+              <!-- sign-in-bar -->
+                    <div class="sign-in full-border">
+                         <p><span>Sign in</span></p>
+                    </div>
+    
+    </div>
+</header>
+<!-- main-photos -->
+            <div class="all-main">
+              <div class="all-back"> 
+                 <div class="cont">
+                    <img src="photos/1.main.jpg">
+                    <img src="photos/2.main .jpg">
+                    <img src="photos/3.main.jpg">
+                    <img src="photos/4.main.jpg">
+                 </div>
+              </div>
+            </div>
+<!-- slider -->
+                <div class="shoe-main">
+                    <div class="shoe-back">
+                        <div class="slider">
+                            <button class="icon-prev"  onclick="plusDivs(-1)"><i class="fa-solid fa-chevron-left" ></i></button>
+                            <img class="mySlides" src="slider/1slider.jpg">
+                            <img class="mySlides" src="slider/3slider.jpg">
+                            <img class="mySlides" src="slider/5slide.jpg" >
+                            <img class="mySlides" src="slider/4slider.jpg">
+                            <img class="mySlides" src="slider/2slide.jpg">
+                            <button class="icon-next"  onclick="plusDivs(1)"><i class="fa-solid fa-chevron-right" ></i> </button>
+                        </div>
+                    </div> 
+                </div>
+                          <script>
+                          var slideIndex = 1;
+                          showDivs(slideIndex);
+                          
+                          function plusDivs(n) {
+                            showDivs(slideIndex += n);
+                          }
+                          function showDivs(n) {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            if (n > x.length) {slideIndex = 1}
+                            if (n < 1) {slideIndex = x.length}
+                            for (i = 0; i < x.length; i++) {
+                              x[i].style.display = "none";  
+                            }
+                            x[slideIndex-1].style.display = "block";  
+                          }
+                          </script>
+          
+          <!-- sports shoe collection -->
+    <div class="sports-main" >
+                     <!--  box-1 -->
+                      <div class="sports-shoes1">
+                        <div class="box1 boxes text">
+                               <h3>ACTION</h3>
+                               <div class="color1" ></div>
+                               <p> more details</p>
+                        </div>
+                              <div class="box2 boxes text">
+                                    <h3>BATA</h3>
+                                    <div class="color2" ></div>
+                                    <p> more details</p>
+                              </div>
+                                    <div class="box3 boxes text">
+                                          <h3>ROADSTER</h3>
+                                          <div class="color3" ></div>
+                                          <p> more details</p>
+                                    </div>
+                        <div class="box4 boxes text">
+                             <h3>NIKE</h3>
+                             <div class="color4" ></div>
+                             <p> more details</p>
+                        </div>
+                      </div>
+                      <!-- box-2 -->
+                  <div class="sports-shoes2">
+                      <div class="box5 boxes text">
+                          <h3>ASIAN</h3>
+                          <div class="color5" ></div>
+                           <p> more details</p>
+                      </div>
+                            <div class="box6 boxes text">
+                                <h3>ELITE</h3>
+                                <div class="color6" ></div>
+                                <p> more details</p>
+                            </div>
+                                  <div class="box7 boxes text">
+                                        <h3>ACTION</h3>
+                                        <div class="color7" ></div>
+                                        <p> more details</p>
+                                  </div>
+                                        <div class="box8 boxes text">
+                                               <h3>HRX</h3>
+                                               <div class="color8" ></div>
+                                               <p> more details</p>
+                                        </div>
+                  </div>  
+                  <h1>SPORTS <br>SHOES</h1>   
+    </div>
+  <!-- casual shoe collection -->
+                <div class="casual-main" >
+                                         <!-- casual box-1 -->
+                            <div class="casual-shoes1">
+                                    <div class="casual1 boxes text">
+                                              <h3>BATA</h3>
+                                              <div class="cc1"></div>
+                                              <p> more details</p>
+                                    </div>
+                                          <div class="casual2 boxes text">
+                                                  <h3>UARMOR</h3>
+                                                  <div class="cc2" ></div>
+                                                  <p> more details</p>
+                                          </div>
+                                                  <div class="casual3 boxes text ">
+                                                        <h3>SNEAKER</h3>
+                                                        <div class="cc3" ></div>
+                                                       <p> more details</p>
+                                                  </div>
+                                                        <div class="casual4 boxes text">
+                                                                <h3>URBANO</h3>
+                                                                <div class="cc4" ></div>
+                                                                <p> more details</p>
+                                                        </div>
+                            </div>
+     <!-- casual box-2 -->
+                        <div class="casual-shoes2">
+                            <div class="casual5 boxes text">
+                                 <h3>FORMA</h3>
+                                 <div class="cc5" ></div>
+                                 <p> more details</p>
+                            </div>
+                                  <div class="casual6 boxes text">
+                                       <h3>BASIC</h3>
+                                       <div class="cc6" ></div>
+                                       <p> more details</p>
+                                  </div>
+                                          <div class="casual7 boxes text">
+                                                <h3>TRYODD</h3>
+                                                <div class="cc7" ></div>
+                                                <p> more details</p>
+                                          </div>
+                                                <div class="casual8 boxes text">
+                                                         <h3>RED TAPE</h3>
+                                                         <div class="cc8" ></div>
+                                                         <p> more details</p>
+                                                </div>
+                        </div>  
+                       <h1>CASUAL<br>SHOES</h1>   
+               </div>
+  <!-- footer -->
+   <footer>
+                <div class="back-top">
+                       <i  class="fa-solid fa-angle-up"></i><br>
+                             BACK TO TOP
+                </div>
+                      <div class="footer">
+                         <ul>
+                          <p>HELP</p><br>
+                          <a>Payments</a>
+                          <a>Shipping</a>
+                          <a>Cancellation&Returns</a>
+                          <a>FAQ</a>
+                         </ul>
+                          
+                         <ul>
+                          <p>CONSUMER POLICY</p><br>
+                          <a>terms of use</a>
+                          <a>Security</a>
+                          <a>Privacy</a>
+                          <a>Site Map</a>
+                         </ul>
+                         <ul class="contact-us">
+                          <p>CONTACT US</p><br>
+                          <a>+919573945391</a>
+                          <a>saiganeshpitta5@gmail.com</a>
+                          <a>Telangana</a>
+                          <a>INDIA</a>
+                          <a>506002</a>
+                         </ul>
+                         <ul>
+                          <p>OFFICE ADDDRESS</p><br>
+                          <a>SAIshoes.in PVT LTD</a>
+                          <a>District</a>
+                          <a>HYD</a>
+                          <a>040-12345678</a>
+                         </ul>
+                      </div>
+                      <div class="copy">
+                        <i class="fa-regular fa-copyright" style="color: yellow;"></i>
+                        <p>CopyRights-2025-SAIshoes.in(pitta.saiganesh)</p>
+                      </div>
+           
+
+
+
+
+
+
+
+   </footer>
+
+
+
+
+
+
+</body>
+</html>
