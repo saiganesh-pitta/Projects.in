@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.head {
+  display: flex;
+  height:20vmin;
+  width: 100%;
+  font-size: 5vmin;
+  justify-content: center;
+  align-items: center;
+  background-color: #111111;
+  color: white;
+}
+
+.amount-from,.amount-to {
+    display: flex;
+    height: 50vmin ;
+    width: 60vmin;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vmin;
+}
+
+.flag-size {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vmin;
+    height: 15vmin;
+}
+ select {
+    border: none;
+    font-size: 2.5vmin;
+    border-radius: 1vmin;
+    background-color: #C0C0C0;
+    padding-right: 0.8vmin;
+    cursor: pointer;
+ }
+ .msg {
+     padding-left: 1vmin;
+     background-color: white;
+     border-radius: 1vmin;
+     font-size: 2.8vmin;
+      border: 1vmin solid white;
+ }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vmin;
+    background-color: #C0C0C0;
+}
+.icon {
+    font-size: 9vmin;
+    color: black;
+}
+
+.btn {
+    height: 8vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111111;
+}
+button {
+    height: 5vmin;
+    width: 30vmin;
+    font-size: 2.5vmin;
+    background-color: white;
+    border-radius: 1vmin;
+    cursor: pointer;
+}
+.enter {
+    border: 1vmin solid white;
+    font-size: 2.8vmin;
+    border-radius: 1vmin;
+}
